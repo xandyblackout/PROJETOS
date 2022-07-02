@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    position: relative;
+}
+
+.setas {
+    width: 56px;
+    height: 78px;
+}
+
+#seta-esquerda {
+    margin-left: 20px;
+}
+
+.imagem {
+    display: none;
+}
+
+.slide-ativo {
+    display: block;
+    height: 100vh;
+}
+
+.primeiro-slide {
+    background-image:url(../img/1.jpg);
+}
+
+.primeiro-slide span {
+    color: #c50000;
+}
+
+.segundo-slide {
+    background-image:url(../img/2.jpg);
+}
+
+.segundo-slide span {
+    color: #d9dd10;
+}
+
+.terceiro-slide {
+    background-image:url(../img/3.jpg);
+}
+
+.terceiro-slide span {
+    color: #a63a17;
+}
+
+.quarto-slide {
+    background-image:url(../img/4.jpg);
+}
+
+.quarto-slide span {
+    color: #10acdd;
+}
+
+.slide-ativo .informacoes {
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    background-color: #fff;
+    max-width: 402px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 54px 59px 53px 60px;
+}
+
+.slide-ativo .informacoes h2 {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.slide-ativo .informacoes p {
+    line-height: 35px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    width: 100%;
+}
+
+.slide-ativo .informacoes span {
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 23px;
+    font-size: 2.5rem;
+}
+
+#seta-esquerda, #seta-direita {
+    top: 50%;
+    z-index: 7;
+    position: absolute;
+}
+
+#seta-direita {
+    right: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* .informacoes {
+    z-index: 2;
+} */
+
+/* .imagem {
+    display: none;
+} */
+
+
+/* label img {
+    width: 56px;
+    height: 78px;
+} */
+
+/* label input {
+    display: none;
+} */
+
+/* div {
+    background-color: white;
+    max-width: 350px;
+    width: 100%;
+    margin-left: 180px;
+    padding: 69px 60px 0 60px;
+    border-radius: 10px;
+} */
+
+/* div h1 {
+    font-size: 40px;
+    font-weight: 400;
+} */
+
+/* div p {
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 401px;
+    width: 100%;
+    margin-top: 60px;
+} */
+
+/* div span {
+    display: inline-block;
+    color: #C50000;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 40px 0 71px 0;
+} */
